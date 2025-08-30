@@ -27,4 +27,4 @@ Este projeto é um **WebSocket** desenvolvido com **Spring Framework**, utilizan
    para utilizar a página de teste de chat.
 
 ---
-📌 No momento este projeto é apenas um **teste fútil**, servindo como demonstração básica de envio de mensagens via **WebSocket (STOMP)** com retorno automático.
+📌 No momento este projeto é apenas um **teste fútil**, servindo como demonstração básica de envio de mensagens via **WebSocket (STOMP)** com retorno automático. Este é o inicio de um chat para uma aplicação real, aceito dicas de melhoria.
