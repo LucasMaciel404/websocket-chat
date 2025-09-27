@@ -17,7 +17,7 @@ public class ChatController {
         this.messagingTemplate = messagingTemplate;
     }
 
-    @MessageMapping("/send")
+    @MessageMapping("/private-message")
     public void sendPrivateMessage(@Payload ChatMessage message, Principal principal) {
         message.setFrom(principal.getName());
         messagingTemplate.convertAndSendToUser(

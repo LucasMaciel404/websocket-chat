@@ -27,6 +27,7 @@ public class JwtHandshakeInterceptor implements HandshakeInterceptor {
         String token = extractToken(request);
         if (token != null && jwtService.isValid(token)) {
             attributes.put("user", jwtService.getUsername(token));
+            System.out.println("NOME DO USUARIO DO TOKEN: " + jwtService.getUsername(token));
             return true;
         }
         return false;
